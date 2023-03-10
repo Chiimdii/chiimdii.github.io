@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 375px">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylemobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="left-container">
+      <img class="main" src="images/bg-main-desktop.png" alt="" />
+    </div>
+    <div class="right-container">
+      <form action="" style="margin-left: 22px">
+        <label for="">CARDHOLDER NAME</label>
+        <br />
+        <input
+          type="text"
+          name="CARDHOLDER NAME"
+          id
+          style="
+            width: 320px;
+            height: 35px;
+            color: hsl(270, 3%, 87%);
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: inherit;
+          "
+          maxlength="12"
+          minlength="12"
+          placeholder="  e.g. Jane Appleseed"
+        />
+        <br />
+        <label for="">CARD NUMBER</label>
+        <br />
+        <input
+          type="number"
+          name="CARD NUMBER"
+          id
+          style="
+            width: 320px;
+            height: 35px;
+            color: hsl(270, 3%, 87%);
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: inherit;
+          "
+          maxlength="12"
+          minlength="12"
+          placeholder="  e.g. 1234 5678 9123 0000"
+        />
+        <br />
+        <label for="">EXP. DATE [MM/YY]</label>
+        <br />
+        <input
+          type="number"
+          name="EXP. DATE [MM/YY]"
+          id
+          style="
+            width: 70px;
+            height: 35px;
+            color: hsl(270, 3%, 87%);
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: inherit;
+          "
+          placeholder="MM"
+        />
+        <input
+          type="number"
+          name="EXP. DATE [MM/YY]"
+          id
+          style="
+            width: 70px;
+            height: 35px;
+            color: hsl(270, 3%, 87%);
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: inherit;
+          "
+          placeholder="YY"
+        />
+        <div class="CVC">
+          <label
+            for=""
+            style="
+              width: 145px;
+              height: 35px;
+              color: hsl(270, 3%, 87%);
+              border-radius: 10px;
+              font-weight: bold;
+              font-family: inherit;
+              top: 285px;
+              left: 196px;
+              position: absolute;
+            "
+            >CVC</label
+          >
+          <br />
+          <input
+            type="number"
+            name="CVC"
+            id
+            style="
+              width: 145px;
+              height: 35px;
+              color: hsl(270, 3%, 87%);
+              border-radius: 10px;
+              font-weight: bold;
+              font-family: inherit;
+              top: 285px;
+              left: 196px;
+              position: absolute;
+            "
+            placeholder="  e.g. 123"
+          />
+        </div>
+        <br />
+        <label for=""></label>
+        <br />
+        <input
+          type="button"
+          name="Confirm"
+          id
+          style="
+            width: 328px;
+            height: 45px;
+            background-color: hsl(278, 68%, 11%);
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: inherit;
+            top: 358px;
+            position: absolute;
+          "
+          placeholder="Confirm"
+        />
+      </form>
+    </div>
+    <img class="front" src="images/bg-card-front.png" alt="" />
+    <svg
+      style="position: absolute; top: 159px; left: 50px; z-index: 4"
+      width="84"
+      height="47"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <ellipse cx="23.478" cy="23.5" rx="23.478" ry="23.5" fill="#fff" />
+      <path
+        d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z"
+        stroke="#fff"
+      />
+    </svg>
+    <img class="back" src="images/bg-card-back.png" alt="" />
+    <div class="middle-container">
+      <h1
+        style="
+          position: absolute;
+          top: 197px;
+          left: 50px;
+          font-size: 19px;
+          color: white;
+          z-index: 4;
+        "
+      >
+        0000 0000 0000 0000
+      </h1>
+      <h3
+        style="
+          position: absolute;
+          top: 260px;
+          left: 50px;
+          font-size: 9px;
+          color: white;
+          z-index: 4;
+        "
+      >
+        JANE APPLESEED
+      </h3>
+      <h3
+        style="
+          position: absolute;
+          top: 260px;
+          left: 276px;
+          font-size: 9px;
+          color: white;
+          z-index: 4;
+        "
+      >
+        00/00
+      </h3>
+      <h3
+        style="
+          position: absolute;
+          top: 104px;
+          left: 318px;
+          font-size: 9px;
+          color: white;
+          z-index: 4;
+        "
+      >
+        000
+      </h3>
+      <h3 style="color: white; top: 623px; position: absolute; left: 155px">
+        Confirm
+      </h3>
+    </div>
+  </body>
+</html>

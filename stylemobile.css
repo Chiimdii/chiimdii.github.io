@@ -1,0 +1,41 @@
+.main {
+  width: 375px;
+}
+.front {
+  position: absolute;
+  top: 139px;
+  width: 309px;
+  z-index: 3;
+  left: 27px;
+}
+.back {
+  width: 309px;
+  position: absolute;
+  top: 42px;
+  left: 68px;
+  z-index: 1;
+}
+.right-container {
+  top: 300px;
+  position: absolute;
+  width: 375px;
+  background-color: white;
+  height: 322px;
+  margin-top: -28px;
+  padding-top: 30‒;
+  padding-top: 113px;
+}
+body {
+  color: (278, 68%, 11%);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  line-height: 3;
+}
+input:hover {
+  border-color: purple;
+}
+.CVC {
+  display: flex;
+}

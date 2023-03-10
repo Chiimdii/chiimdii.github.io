@@ -1,0 +1,31 @@
+.right-container {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 993px;
+  bottom: 204px;
+}
+
+.front {
+  position: absolute;
+  bottom: 314px;
+  left: 190px;
+}
+.back {
+  position: absolute;
+  bottom: 29px;
+  left: 271px;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  color: (278, 68%, 11%);
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  line-height: 3;
+}
+input:hover {
+  border-color: purple;
+}
